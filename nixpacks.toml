@@ -1,4 +1,5 @@
 # nixpacks.toml
+
 [phases.setup]
 # Install nginx to serve static files
 nixPkgs = ["nginx"]
