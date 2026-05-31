@@ -1,6 +1,6 @@
 # nixpacks.toml
 [phases.setup]
-# No build tools needed, just copy files
+# Install nginx to serve static files
 nixPkgs = ["nginx"]
 
 [phases.build]
