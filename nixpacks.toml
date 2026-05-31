@@ -1,0 +1,17 @@
+# nixpacks.toml
+[phases.setup]
+# No build tools needed, just copy files
+nixPkgs = ["nginx"]
+
+[phases.build]
+cmds = [
+  "mkdir -p /usr/share/nginx/html",
+  "cp -r rexa /usr/share/nginx/html/",
+  "cp -r arturo /usr/share/nginx/html/",
+  "cp -r artolika /usr/share/nginx/html/",
+  "cp -r doorware /usr/share/nginx/html/",
+  "echo '<h1>Catalogs Root</h1>' > /usr/share/nginx/html/index.html"
+]
+
+[start]
+cmd = "nginx -g 'daemon off;'"
