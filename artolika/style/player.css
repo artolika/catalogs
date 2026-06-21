@@ -839,6 +839,12 @@ body{position:fixed;}
 	background: url(icon/classic-buttons.png) -225px 0 no-repeat;
 }
 
+/* safari-fullscreen */
+.safari-fullscreen-video {
+	width: 1px;
+	height: 1px;
+}
+
 /*video seek*/
 /* seek */
 .video-player.classic .video-seek {
