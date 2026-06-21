@@ -3,7 +3,7 @@ FROM nginx:alpine
 
 COPY rexa /usr/share/nginx/html/rexa
 COPY arturo /usr/share/nginx/html/arturo
-COPY artolika /usr/share/nginx/html/artolika
+COPY artolika /usr/share/nginx/html/divine
 COPY doorware /usr/share/nginx/html/doorware
 
 # Optional: add a default index
