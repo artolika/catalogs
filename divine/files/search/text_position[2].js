@@ -1,0 +1,1 @@
+positionForPages[2]={page:2,positions:[{word:"ARTOLIKA",left:0.443504,top:0.825874,width:0.150800,height:0.025918}]};
